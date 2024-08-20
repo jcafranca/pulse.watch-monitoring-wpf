@@ -1,0 +1,167 @@
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.0.exe.config
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.0.exe
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.0.pdb
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\CommonServiceLocator.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\Dapper.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\HandyControl.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\MySql.Data.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\Newtonsoft.Json.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\SweetAlertSharp.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\System.Windows.Interactivity.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\Google.Protobuf.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\BouncyCastle.Crypto.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\System.Memory.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Compression.LZ4.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Hash.xxHash.dll
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\Dapper.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\HandyControl.pdb
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\HandyControl.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\MySql.Data.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\Newtonsoft.Json.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\Google.Protobuf.pdb
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\Google.Protobuf.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\BouncyCastle.Crypto.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\System.Memory.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Compression.LZ4.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Hash.xxHash.xml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.AssemblyReference.cache
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.SuggestedBindingRedirects.cache
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.0.exe.config
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\Resources\Animation\AnimationResource.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\MainWindow.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\UserControl\NonClientAreaContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\BackupContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\InputBox.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\LoginContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\QueryContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\ReportContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\SettingContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\App.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.0_MarkupCompile.cache
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.0_MarkupCompile.lref
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\App.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\MainWindow.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\UserControl\NonClientAreaContent.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\BackupContent.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\InputBox.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\LoginContent.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\QueryContent.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\ReportContent.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\SettingContent.baml
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.0.g.resources
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.Properties.Resources.resources
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.GenerateResource.cache
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.CoreCompileInputs.cache
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.CopyComplete
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.0.exe
+D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.0.pdb
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.7.exe.config
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.7.exe
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.7.pdb
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\Dapper.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\HandyControl.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\MySql.Data.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\Newtonsoft.Json.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\Google.Protobuf.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\BouncyCastle.Crypto.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\System.Memory.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Compression.LZ4.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Hash.xxHash.xml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.AssemblyReference.cache
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.SuggestedBindingRedirects.cache
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.7.exe.config
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\Resources\Animation\AnimationResource.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\MainWindow.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\UserControl\NonClientAreaContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\BackupContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\InputBox.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\LoginContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\QueryContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\ReportContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\SettingContent.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\App.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.7_MarkupCompile.cache
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.7_MarkupCompile.lref
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\App.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\MainWindow.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\UserControl\NonClientAreaContent.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\BackupContent.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\InputBox.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\LoginContent.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\QueryContent.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\ReportContent.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\SettingContent.baml
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.7.g.resources
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.Properties.Resources.resources
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.GenerateResource.cache
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.CoreCompileInputs.cache
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.Fody.CopyLocal.cache
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.CopyComplete
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.7.exe
+D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.7.pdb
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.8.exe.config
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.8.exe
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\DLDSMonitoringv1.8.pdb
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\Dapper.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\HandyControl.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\MySql.Data.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\Newtonsoft.Json.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\Google.Protobuf.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Compression.LZ4.Streams.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\BouncyCastle.Crypto.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\System.Memory.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Compression.LZ4.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\bin\Debug\K4os.Hash.xxHash.xml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.AssemblyReference.cache
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.SuggestedBindingRedirects.cache
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.8.exe.config
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\Resources\Animation\AnimationResource.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\MainWindow.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\UserControl\NonClientAreaContent.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\BackupContent.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\InputBox.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\LoginContent.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\QueryContent.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\ReportContent.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\SettingContent.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\App.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.8_MarkupCompile.cache
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.8_MarkupCompile.lref
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\App.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\MainWindow.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\UserControl\NonClientAreaContent.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\BackupContent.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\InputBox.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\LoginContent.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\QueryContent.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\ReportContent.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\View\Window\SettingContent.baml
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.8.g.resources
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.Properties.Resources.resources
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.GenerateResource.cache
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.CoreCompileInputs.cache
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonitoring.csproj.Fody.CopyLocal.cache
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\FPOMonit.FB5E8FE4.Up2Date
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.8.exe
+E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\obj\Debug\DLDSMonitoringv1.8.pdb

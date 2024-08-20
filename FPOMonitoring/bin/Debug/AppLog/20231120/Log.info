@@ -1,0 +1,84 @@
+Time             : 16:44:39
+Error            : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM user_tbl WHERE username = 'admin' AND password = SHA1('admin')' at line 1
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at FPOMonitoring.Tools.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, String conditions, Object parameters, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\Tools\Helpers\SimpleCRUD.cs:line 252
+   at FPOMonitoring.ViewModel.LoginViewModel.ValidateCredentials() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 113
+   at FPOMonitoring.ViewModel.LoginViewModel.<Login>b__23_0() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 69
+Error Occurred In : Login
+
+
+Time             : 16:44:42
+Error            : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM user_tbl WHERE username = 'admin' AND password = SHA1('admin')' at line 1
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at FPOMonitoring.Tools.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, String conditions, Object parameters, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\Tools\Helpers\SimpleCRUD.cs:line 252
+   at FPOMonitoring.ViewModel.LoginViewModel.ValidateCredentials() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 113
+   at FPOMonitoring.ViewModel.LoginViewModel.<Login>b__23_0() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 69
+Error Occurred In : Login
+
+
+Time             : 16:44:50
+Error            : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM user_tbl WHERE username = 'admin' AND password = SHA1('admin')' at line 1
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at FPOMonitoring.Tools.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, String conditions, Object parameters, IDbTransaction transaction, Nullable`1 commandTimeout) in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\Tools\Helpers\SimpleCRUD.cs:line 252
+   at FPOMonitoring.ViewModel.LoginViewModel.ValidateCredentials() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 113
+   at FPOMonitoring.ViewModel.LoginViewModel.<Login>b__23_0() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 69
+Error Occurred In : Login
+
+
+Time             : 16:46:53
+Error            : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM user_tbl WHERE username = 'admin' AND password = SHA1('admin') AND' at line 1
+StackTrace       : at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior)
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at FPOMonitoring.Tools.Helpers.SimpleCRUD.GetList[T](IDbConnection connection, String conditions, Object parameters, IDbTransaction transaction, Nullable`1 commandTimeout)
+   at FPOMonitoring.ViewModel.LoginViewModel.ValidateCredentials()
+   at FPOMonitoring.ViewModel.LoginViewModel.<Login>b__23_0()
+Error Occurred In : Login
+
+

@@ -1,0 +1,248 @@
+Time             : 12:16:19
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 12:18:58
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 16:17:11
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 16:23:53
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 16:30:35
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 16:34:20
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 16:40:45
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 16:43:37
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 16:44:31
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 18:01:32
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 18:19:13
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 18:59:06
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 19:07:47
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at FPOMonitoring.ViewModel.MainViewModel.<>c.<StartContinuousTask>b__163_27(Activity item) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\ViewModel\MainViewModel.cs:line 720
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FPOMonitoring.ViewModel.MainViewModel.ComputeTime(IEnumerable`1 activities) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\ViewModel\MainViewModel.cs:line 1026
+Error Occurred In : ComputeTime
+
+
+Time             : 19:07:48
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at FPOMonitoring.ViewModel.MainViewModel.<>c.<StartContinuousTask>b__163_28(Activity item) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\ViewModel\MainViewModel.cs:line 721
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FPOMonitoring.ViewModel.MainViewModel.ComputeTime(IEnumerable`1 activities) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\ViewModel\MainViewModel.cs:line 1026
+Error Occurred In : ComputeTime
+
+
+Time             : 19:07:49
+Error            : Object reference not set to an instance of an object.
+StackTrace       : at FPOMonitoring.ViewModel.MainViewModel.<>c.<StartContinuousTask>b__163_29(Activity item) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\ViewModel\MainViewModel.cs:line 722
+   at System.Linq.Enumerable.WhereArrayIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at FPOMonitoring.ViewModel.MainViewModel.ComputeTime(IEnumerable`1 activities) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\ViewModel\MainViewModel.cs:line 1026
+Error Occurred In : ComputeTime
+
+
+Time             : 19:37:11
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 19:46:42
+Error            : Unable to connect to any of the specified MySQL hosts.
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in D:\DotNet Projects\WPF Projects\New folder\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+
+Time             : 19:49:58
+Error            : The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+StackTrace       : at System.DateTime.Subtract(TimeSpan value)
+   at FPOMonitoring.ViewModel.ReportViewModel.<>c__DisplayClass54_1.<GenerateIdleReport>b__1(<>f__AnonymousType7`2 doc)
+   at HandyControl.Tools.Extension.EnumerableExtensions.ForEach[TElement](IEnumerable`1 this, Action`1 action)
+   at FPOMonitoring.ViewModel.ReportViewModel.GenerateIdleReport(List`1 activities, String report_path)
+Error Occurred In : GenerateIdleReport
+
+
+Time             : 19:50:37
+Error            : The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+StackTrace       : at System.DateTime.Subtract(TimeSpan value)
+   at FPOMonitoring.ViewModel.ReportViewModel.<>c__DisplayClass56_2.<GenerateIdleSummary>b__8(<>f__AnonymousType7`2 data)
+   at HandyControl.Tools.Extension.EnumerableExtensions.ForEach[TElement](IEnumerable`1 this, Action`1 action)
+   at FPOMonitoring.ViewModel.ReportViewModel.<>c__DisplayClass56_0.<GenerateIdleSummary>b__3(List`1 item)
+   at HandyControl.Tools.Extension.EnumerableExtensions.ForEach[TElement](IEnumerable`1 this, Action`1 action)
+   at FPOMonitoring.ViewModel.ReportViewModel.GenerateIdleSummary(List`1 activities, String report_path)
+Error Occurred In : GenerateIdleSummary
+
+

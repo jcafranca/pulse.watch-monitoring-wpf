@@ -1,0 +1,22 @@
+Time             : 14:42:22
+Error            : The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+StackTrace       : at System.DateTime.Subtract(TimeSpan value)
+   at FPOMonitoring.ViewModel.ReportViewModel.<>c__DisplayClass54_1.<GenerateIdleReport>b__1(<>f__AnonymousType7`2 doc) in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\ReportViewModel.cs:line 472
+   at HandyControl.Tools.Extension.EnumerableExtensions.ForEach[TElement](IEnumerable`1 this, Action`1 action)
+   at FPOMonitoring.ViewModel.ReportViewModel.GenerateIdleReport(List`1 activities, String report_path) in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\ReportViewModel.cs:line 469
+Error Occurred In : GenerateIdleReport
+
+
+Time             : 14:42:22
+Error            : The added or subtracted value results in an un-representable DateTime.
+Parameter name: value
+StackTrace       : at System.DateTime.Subtract(TimeSpan value)
+   at FPOMonitoring.ViewModel.ReportViewModel.<>c__DisplayClass56_2.<GenerateIdleSummary>b__8(<>f__AnonymousType7`2 data) in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\ReportViewModel.cs:line 610
+   at HandyControl.Tools.Extension.EnumerableExtensions.ForEach[TElement](IEnumerable`1 this, Action`1 action)
+   at FPOMonitoring.ViewModel.ReportViewModel.<>c__DisplayClass56_0.<GenerateIdleSummary>b__3(List`1 item) in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\ReportViewModel.cs:line 608
+   at HandyControl.Tools.Extension.EnumerableExtensions.ForEach[TElement](IEnumerable`1 this, Action`1 action)
+   at FPOMonitoring.ViewModel.ReportViewModel.GenerateIdleSummary(List`1 activities, String report_path) in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\ReportViewModel.cs:line 605
+Error Occurred In : GenerateIdleSummary
+
+

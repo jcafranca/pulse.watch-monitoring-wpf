@@ -1,0 +1,14 @@
+Time             : 13:01:40
+Error            : Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Unknown database 'fpo_tracker_db'
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at FPOMonitoring.Services.MySQLService.CheckConnection(Object databaseConnection) in E:\Latest .NET Projects\WPF\DLDS\FPOMonitoring\FPOMonitoring\Services\MySQLService.cs:line 50
+Error Occurred In : CheckConnection
+
+

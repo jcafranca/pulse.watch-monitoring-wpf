@@ -1,0 +1,57 @@
+Time             : 17:09:52
+Error            : Authentication to host '' for user 'jerome' using method 'sha256_password' failed with message: Access denied for user 'jerome'@'White-February.mshome.net' (using password: NO)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at FPOMonitoring.ViewModel.LoginViewModel.ValidateCredentials() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 120
+   at FPOMonitoring.ViewModel.LoginViewModel.<Login>b__27_0() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 79
+Error Occurred In : Login
+
+
+Time             : 17:09:54
+Error            : Authentication to host '' for user 'jerome' using method 'sha256_password' failed with message: Access denied for user 'jerome'@'White-February.mshome.net' (using password: NO)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at FPOMonitoring.ViewModel.LoginViewModel.ValidateCredentials() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 120
+   at FPOMonitoring.ViewModel.LoginViewModel.<Login>b__27_0() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 79
+Error Occurred In : Login
+
+
+Time             : 17:15:05
+Error            : Authentication to host '' for user 'jerome' using method 'sha256_password' failed with message: Access denied for user 'jerome'@'White-February.mshome.net' (using password: NO)
+StackTrace       : at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Dapper.SqlMapper.<QueryImpl>d__138`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType)
+   at FPOMonitoring.ViewModel.LoginViewModel.ValidateCredentials() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 120
+   at FPOMonitoring.ViewModel.LoginViewModel.<Login>b__27_0() in D:\DotNet Projects\WPF Projects\New folder\FPOMonitoring\FPOMonitoring\ViewModel\LoginViewModel.cs:line 79
+Error Occurred In : Login
+
+

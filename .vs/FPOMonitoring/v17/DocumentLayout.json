@@ -1,0 +1,720 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|e:\\latest .net projects\\wpf\\dlds\\fpomonitoring\\fpomonitoring\\view\\window\\logincontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\logincontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\settingcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\settingcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\viewmodel\\nonclientareaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\viewmodel\\nonclientareaviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FPOMonitoring||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\data\\class\\timezoneinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\data\\class\\timezoneinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\services\\logservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\usercontrol\\nonclientareacontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\usercontrol\\nonclientareacontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\tools\\behaviors\\searchbarbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\tools\\behaviors\\searchbarbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\tools\\behaviors\\togglebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\tools\\behaviors\\togglebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\tools\\behaviors\\buttonbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\tools\\behaviors\\buttonbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\tools\\behaviors\\popupbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\tools\\behaviors\\popupbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\tools\\converters\\datetime2visibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\tools\\converters\\datetime2visibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\viewmodel\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\viewmodel\\reportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\data\\class\\colorsenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\data\\class\\colorsenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\reportcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\reportcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\viewmodel\\backupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\viewmodel\\backupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\backupcontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\backupcontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\backupcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\backupcontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\viewmodel\\commandviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\viewmodel\\commandviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\services\\mysqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\services\\mysqlservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\data\\class\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\data\\class\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\data\\class\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\data\\class\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\viewmodel\\settingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\viewmodel\\settingviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\querycontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\querycontent.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\data\\class\\checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\data\\class\\checkbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\data\\class\\billerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\data\\class\\billerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\logincontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\logincontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\tools\\helpers\\windowrequestmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\tools\\helpers\\windowrequestmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\inputbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\inputbox.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\inputbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\inputbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\settingcontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\settingcontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\data\\class\\chatinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\data\\class\\chatinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\tools\\converters\\state2tovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\tools\\converters\\state2tovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\querycontent.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\querycontent.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\viewmodel\\queryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\viewmodel\\queryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\tools\\converters\\datetime2nullconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\tools\\converters\\datetime2nullconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\fpomonitoring\\view\\window\\reportcontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54C469FE-C00B-424D-B33A-42B5780C7960}|FPOMonitoring\\FPOMonitoring.csproj|solutionrelative:fpomonitoring\\view\\window\\reportcontent.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerome\\AppData\\Local\\Temp\\.vsdbgsrc\\f5b1b4d8a6fe518e19bbbdc0272f16ff9e85fef56ef738cf350bef957a0adc5f\\FrameworkTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TimezoneInfo.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\TimezoneInfo.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Data\\Class\\TimezoneInfo.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\TimezoneInfo.cs",
+              "RelativeToolTip": "FPOMonitoring\\Data\\Class\\TimezoneInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T08:19:19.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogService.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Services\\LogService.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Services\\LogService.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Services\\LogService.cs",
+              "RelativeToolTip": "FPOMonitoring\\Services\\LogService.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAmwFEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T04:59:58.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NonClientAreaViewModel.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\NonClientAreaViewModel.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\ViewModel\\NonClientAreaViewModel.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\NonClientAreaViewModel.cs",
+              "RelativeToolTip": "FPOMonitoring\\ViewModel\\NonClientAreaViewModel.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAuwGUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T05:32:43.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FPOMonitoring",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\FPOMonitoring.csproj",
+              "RelativeDocumentMoniker": "FPOMonitoring\\FPOMonitoring.csproj",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\FPOMonitoring.csproj",
+              "RelativeToolTip": "FPOMonitoring\\FPOMonitoring.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-11-20T09:00:07.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SettingContent.xaml",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\SettingContent.xaml",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\SettingContent.xaml",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\SettingContent.xaml",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\SettingContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginContent.xaml",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\LoginContent.xaml",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\LoginContent.xaml",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\LoginContent.xaml",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\LoginContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T04:59:58.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ToggleBehavior.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Behaviors\\ToggleBehavior.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Tools\\Behaviors\\ToggleBehavior.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Behaviors\\ToggleBehavior.cs",
+              "RelativeToolTip": "FPOMonitoring\\Tools\\Behaviors\\ToggleBehavior.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwCoAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T06:47:37.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "FPOMonitoring\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAgwF8AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FPOMonitoring\\MainWindow.xaml",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\MainWindow.xaml",
+              "RelativeToolTip": "FPOMonitoring\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T04:59:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NonClientAreaContent.xaml",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\UserControl\\NonClientAreaContent.xaml",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\UserControl\\NonClientAreaContent.xaml",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\UserControl\\NonClientAreaContent.xaml",
+              "RelativeToolTip": "FPOMonitoring\\View\\UserControl\\NonClientAreaContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T05:03:53.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SearchBarBehavior.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Behaviors\\SearchBarBehavior.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Tools\\Behaviors\\SearchBarBehavior.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Behaviors\\SearchBarBehavior.cs",
+              "RelativeToolTip": "FPOMonitoring\\Tools\\Behaviors\\SearchBarBehavior.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwA4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T06:50:35.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ButtonBehavior.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Behaviors\\ButtonBehavior.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Tools\\Behaviors\\ButtonBehavior.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Behaviors\\ButtonBehavior.cs",
+              "RelativeToolTip": "FPOMonitoring\\Tools\\Behaviors\\ButtonBehavior.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T05:39:39.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PopupBehavior.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Behaviors\\PopupBehavior.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Tools\\Behaviors\\PopupBehavior.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Behaviors\\PopupBehavior.cs",
+              "RelativeToolTip": "FPOMonitoring\\Tools\\Behaviors\\PopupBehavior.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T05:57:45.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DateTime2VisibilityConverter.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Converters\\DateTime2VisibilityConverter.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Tools\\Converters\\DateTime2VisibilityConverter.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Converters\\DateTime2VisibilityConverter.cs",
+              "RelativeToolTip": "FPOMonitoring\\Tools\\Converters\\DateTime2VisibilityConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReportContent.xaml",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\ReportContent.xaml",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\ReportContent.xaml",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\ReportContent.xaml",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\ReportContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T04:59:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BackupViewModel.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\BackupViewModel.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\ViewModel\\BackupViewModel.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\BackupViewModel.cs",
+              "RelativeToolTip": "FPOMonitoring\\ViewModel\\BackupViewModel.cs",
+              "ViewState": "AQIAAKgAAAAAAAAAAIBcwK0AAAAZAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReportViewModel.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\ReportViewModel.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\ViewModel\\ReportViewModel.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\ReportViewModel.cs",
+              "RelativeToolTip": "FPOMonitoring\\ViewModel\\ReportViewModel.cs",
+              "ViewState": "AQIAALYBAAAAAAAAAIAwwMcBAAA+AAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ColorsEnum.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\ColorsEnum.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Data\\Class\\ColorsEnum.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\ColorsEnum.cs",
+              "RelativeToolTip": "FPOMonitoring\\Data\\Class\\ColorsEnum.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwB4AAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FPOMonitoring\\MainWindow.xaml.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAABTwLsAAAAsAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-19T04:59:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginContent.xaml.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\LoginContent.xaml.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\LoginContent.xaml.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\LoginContent.xaml.cs",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\LoginContent.xaml.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAYwB4AAAAoAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-19T04:59:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CommandViewModel.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\CommandViewModel.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\ViewModel\\CommandViewModel.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\CommandViewModel.cs",
+              "RelativeToolTip": "FPOMonitoring\\ViewModel\\CommandViewModel.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAewFMAAAAxAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Document.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\Document.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Data\\Class\\Document.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\Document.cs",
+              "RelativeToolTip": "FPOMonitoring\\Data\\Class\\Document.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAzwC4AAAAnAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BackupContent.xaml.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\BackupContent.xaml.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\BackupContent.xaml.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\BackupContent.xaml.cs",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\BackupContent.xaml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAYwEMAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Production.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\Production.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Data\\Class\\Production.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\Production.cs",
+              "RelativeToolTip": "FPOMonitoring\\Data\\Class\\Production.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAbAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BackupContent.xaml",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\BackupContent.xaml",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\BackupContent.xaml",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\BackupContent.xaml",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\BackupContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MySQLService.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Services\\MySQLService.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Services\\MySQLService.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Services\\MySQLService.cs",
+              "RelativeToolTip": "FPOMonitoring\\Services\\MySQLService.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAMBfwGsAAABEAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BillerInfo.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\BillerInfo.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Data\\Class\\BillerInfo.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\BillerInfo.cs",
+              "RelativeToolTip": "FPOMonitoring\\Data\\Class\\BillerInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CheckBox.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\CheckBox.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Data\\Class\\CheckBox.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\CheckBox.cs",
+              "RelativeToolTip": "FPOMonitoring\\Data\\Class\\CheckBox.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAzwCoAAAAJAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QueryContent.xaml",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\QueryContent.xaml",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\QueryContent.xaml",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\QueryContent.xaml",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\QueryContent.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SettingViewModel.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\SettingViewModel.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\ViewModel\\SettingViewModel.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\SettingViewModel.cs",
+              "RelativeToolTip": "FPOMonitoring\\ViewModel\\SettingViewModel.cs",
+              "ViewState": "AQIAAMYAAAAAAAAAAABTwMkAAAAoAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "QueryViewModel.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\QueryViewModel.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\ViewModel\\QueryViewModel.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\ViewModel\\QueryViewModel.cs",
+              "RelativeToolTip": "FPOMonitoring\\ViewModel\\QueryViewModel.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAqwEsAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "SettingContent.xaml.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\SettingContent.xaml.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\SettingContent.xaml.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\SettingContent.xaml.cs",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\SettingContent.xaml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCUAAABgAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "QueryContent.xaml.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\QueryContent.xaml.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\QueryContent.xaml.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\QueryContent.xaml.cs",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\QueryContent.xaml.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwCsAAAAzAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "State2ToVisibilityConverter.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Converters\\State2ToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Tools\\Converters\\State2ToVisibilityConverter.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Converters\\State2ToVisibilityConverter.cs",
+              "RelativeToolTip": "FPOMonitoring\\Tools\\Converters\\State2ToVisibilityConverter.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAABjwBkAAAANAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "packages.config",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\packages.config",
+              "RelativeDocumentMoniker": "FPOMonitoring\\packages.config",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\packages.config",
+              "RelativeToolTip": "FPOMonitoring\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFlSURBVDhPpZO9qsJAEIWPqyaFjQha2MUHsNDK1p/eRgsbg1Z2UfAx/AEfwVIb8TksfAGxSBAFJY2FpBiddQ1XvOBe7gfLsgfmMJM5wX\u002BJqBu9Xo/O57N6fWKaJvr9PgqFQljDhI9ms0mTyUS9PuHieDyOwWCAYrEY1gl1axEEAcbjMTabDSnpbwYMm0ynU1yvV2kSk6oGP8fjcV6EHcxmMySTSSQSCUSjUaV\u002BRxqcTid6fESUSiU5o2EY2ibieDxSJpOJcAdcNJ/PZTe8Nh1Eq9XCdrulfD4fqdVqUlyv17ILHQSHx7ZtDIdDWiwWT1HoL0fU63X4vo/lcqmkx2piMVwuFxmcbwjHcdDpdJBOp\u002BXJZrM4HA6yq9vtpmXyhuu6VK1WybIsKpfLtN/vibfkeV54OPavIL39GC/YpN1uY7fbIZfLYbVaodvtguiZ4FQqhdFoxJn5tV7CJpVKhRqNRpj7T4A7TASPsDpkW/8AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "App.config",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\App.config",
+              "RelativeDocumentMoniker": "FPOMonitoring\\App.config",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\App.config",
+              "RelativeToolTip": "FPOMonitoring\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "WindowRequestMessage.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Helpers\\WindowRequestMessage.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Tools\\Helpers\\WindowRequestMessage.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Helpers\\WindowRequestMessage.cs",
+              "RelativeToolTip": "FPOMonitoring\\Tools\\Helpers\\WindowRequestMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\App.xaml.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\App.xaml.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\App.xaml.cs",
+              "RelativeToolTip": "FPOMonitoring\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-19T04:59:58.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InputBox.xaml.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\InputBox.xaml.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\InputBox.xaml.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\InputBox.xaml.cs",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\InputBox.xaml.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAABTwJIAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-19T04:59:58.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "InputBox.xaml",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\InputBox.xaml",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\InputBox.xaml",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\InputBox.xaml",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\InputBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-19T04:59:58.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReportContent.xaml.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\ReportContent.xaml.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\View\\Window\\ReportContent.xaml.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\View\\Window\\ReportContent.xaml.cs",
+              "RelativeToolTip": "FPOMonitoring\\View\\Window\\ReportContent.xaml.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAADwvxgAAAAiAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADjSURBVDhPY0AGretv/t9x7tl/KJd0sOfii/\u002Bimfv\u002Bbzv7lGhDGBlid2Eo1pTkZNiSLsVQWVkJFWFgYGdnZygoKGAwNjZmhAphgt0XnsFd8P79\u002B/9Pnz6F47CwsP/R0dH/z549i2IhE5QGg1P3PzMsTtVgsFTiYvj27RtUFAF\u002B//7N0NfXx4BsCIoBIVoMDOaKnFg1wwDIkAkTJkB5oDBAAnFxcf/b29uhPNygsLCQYdWqVWC9KC748eMHlEU8QDGAHDBqABUMQEkHmZmZ/9\u002B\u002BfQvl4QbCwsIM06dPx50niAcMDADfJl5g9BqhpwAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-08-19T04:59:58.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ChatInfo.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\ChatInfo.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Data\\Class\\ChatInfo.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Data\\Class\\ChatInfo.cs",
+              "RelativeToolTip": "FPOMonitoring\\Data\\Class\\ChatInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "DateTime2NullConverter.cs",
+              "DocumentMoniker": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Converters\\DateTime2NullConverter.cs",
+              "RelativeDocumentMoniker": "FPOMonitoring\\Tools\\Converters\\DateTime2NullConverter.cs",
+              "ToolTip": "E:\\Latest .NET Projects\\WPF\\DLDS\\FPOMonitoring\\FPOMonitoring\\Tools\\Converters\\DateTime2NullConverter.cs",
+              "RelativeToolTip": "FPOMonitoring\\Tools\\Converters\\DateTime2NullConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADtSURBVDhPYxgFCHDh4YX/sQtj/6u3qP9XblL\u002BHzk/8j9UiuHtx7f/VZpVwHxkNggwgohLjy79D18SzmAua86QZJbEwM/Bz3D91XWGCNMIRpAGo34jsGJkwMrMynCn9g5YP0PK0pT/3tO9/3/58gVuMjLA5wImEHH68WkGN3U3Bh4eHoiJJACwAb/\u002B/gI7CRuAeeH3398M8g3ycDayKxjC5oX9D54TjNX5IIDPC2Ann7x78n/E4ggGDw0PhgiDCLBrLj2/xJBhl0HQS3AFe67t\u002BT/lyBSGO2/uMHCxcTHYK9szdAd2kxwmIw8wMAAAESl0qwYO77cAAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-19T04:59:58.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FrameworkTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\jerome\\AppData\\Local\\Temp\\.vsdbgsrc\\f5b1b4d8a6fe518e19bbbdc0272f16ff9e85fef56ef738cf350bef957a0adc5f\\FrameworkTemplate.cs",
+              "ToolTip": "C:\\Users\\jerome\\AppData\\Local\\Temp\\.vsdbgsrc\\f5b1b4d8a6fe518e19bbbdc0272f16ff9e85fef56ef738cf350bef957a0adc5f\\FrameworkTemplate.cs",
+              "ViewState": "AQIAABADAAAAAAAAAAAmwB8DAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-23T09:39:51.907Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
