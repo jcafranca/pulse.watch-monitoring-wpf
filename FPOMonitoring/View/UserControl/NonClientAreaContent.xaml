@@ -1,0 +1,209 @@
+﻿<UserControl x:Class="FPOMonitoring.View.UserControl.NonClientAreaContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FPOMonitoring.View.UserControl"
+             xmlns:hc="https://handyorg.github.io/handycontrol"
+             xmlns:b="clr-namespace:FPOMonitoring.Tools.Behaviors"
+             mc:Ignorable="d" 
+             DataContext="{Binding Source={StaticResource Locator}, Path=NonClientAreaVM}"
+             d:DesignHeight="29" d:DesignWidth="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <StackPanel VerticalAlignment="Stretch"
+                    Orientation="Horizontal">
+            <Menu Margin="10,0,0,0" Background="Transparent">
+                <MenuItem Height="29" Header="File">
+                    <MenuItem x:Name="StartBtn" InputGestureText="F1" Command="{Binding Source={StaticResource Locator}, Path=CommandVM.StartCommand}" IsEnabled="{Binding Source={StaticResource Locator}, Path=Main.IsRunning, Converter={StaticResource ReverseBooleanConverter}}">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Foreground="Green" Text="&#xf04b;" FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Start" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem InputGestureText="F2" Command="{Binding Source={StaticResource Locator}, Path=CommandVM.StopCommand}" IsEnabled="{Binding ElementName=StartBtn, Path=IsEnabled, Converter={StaticResource ReverseBooleanConverter}}">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Foreground="Firebrick" Text="&#xf04d;" FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Stop" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem InputGestureText="F3" Command="{Binding Source={StaticResource Locator}, Path=CommandVM.RefreshCommand}">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Text="&#xf021;" FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Refresh" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem InputGestureText="F4" Command="{Binding Source={StaticResource Locator}, Path=CommandVM.ChangeCommand}">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Text="&#x23;"
+                                     FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Change Target" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Restart Application" Command="{Binding Source={StaticResource Locator}, Path=CommandVM.RestartAppCommand}" />
+                    <Separator />
+                    <MenuItem Command="{Binding Source={StaticResource Locator}, Path=CommandVM.ExitAppCommand}"
+                              InputGestureText="Alt + E">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Foreground="Firebrick" Text="&#xf011;"
+                                     FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Exit" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem Height="29" Header="Recommendation">
+                    <MenuItem Command="{Binding Source={StaticResource Locator}, Path=CommandVM.SettingCommand}">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Text="&#xf013;"
+                                     Foreground="{StaticResource PrimaryForeground}"
+                                     FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Settings" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem Visibility="Collapsed" Command="{Binding Source={StaticResource Locator}, Path=CommandVM.QueryCommand}">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Text="&#x3f;"
+                                     Foreground="{StaticResource PrimaryForeground}"
+                                     FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Query Form" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <MenuItem Command="{Binding Source={StaticResource Locator}, Path=CommandVM.ReportCommand}">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Text="&#xf6dd;"
+                                     FontSize="16"
+                                     FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Report" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Command="{Binding Source={StaticResource Locator}, Path=CommandVM.BackupCommand}">
+                        <MenuItem.Header>
+                            <TextBlock>
+                                <Run Foreground="{StaticResource PrimaryForeground}" Text="&#xf233;"
+                                     FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Backup" />
+                            </TextBlock>
+                        </MenuItem.Header>
+                    </MenuItem>
+                </MenuItem>
+            </Menu>
+            <Border Margin="10,0,0,0"
+                    VerticalAlignment="Center"
+                    CornerRadius="2"
+                    Padding="10,4"
+                    Background="{StaticResource SecondaryRegionBrush}">
+                <TextBlock FontWeight="Bold"
+                           VerticalAlignment="Center"
+                           Foreground="{StaticResource PrimaryTextBrush}">
+                    <Run Foreground="{StaticResource PrimaryForeground}" Text="&#xf201;" FontFamily="{StaticResource FontAwesome}"/>
+                    <Run Text="{Binding AppName, FallbackValue=None}" />
+                </TextBlock>
+            </Border>
+        </StackPanel>
+        <StackPanel Grid.Column="1" Orientation="Horizontal">
+            <hc:Shield Subject="Timezone" Margin="4,0,4,0" Color="#1182c3">
+                <hc:Shield.Status>
+                    <Button x:Name="btnTimezoneConfig" Background="Transparent"
+                            BorderThickness="0"
+                            VerticalAlignment="Center"
+                            HorizontalAlignment="Center"
+                            Foreground="White" Cursor="Hand"
+                            Content="{Binding SelectedTimezone.DisplayName, Mode=OneWay}">
+                        <hc:Interaction.Behaviors>
+                            <b:ButtonBehavior />
+                        </hc:Interaction.Behaviors>
+                    </Button>
+                </hc:Shield.Status>
+            </hc:Shield>
+            <Popup IsOpen="{Binding IsTimezonePopupOpen}" AllowsTransparency="True"
+                   PlacementTarget="{Binding ElementName=TimeZoneConfig}"
+                   HorizontalOffset="-28"
+                   Name="TimeZoneList"
+                   VerticalOffset="6"
+                   StaysOpen="False">
+
+                <hc:Interaction.Behaviors>
+                    <b:PopupBehavior />
+                </hc:Interaction.Behaviors>
+                <Border Background="{DynamicResource SecondaryRegionBrush}" CornerRadius="4" Margin="16">
+                    <StackPanel Orientation="Vertical" Margin="5">
+                        <hc:ElementGroup Margin="0 0 0 4">
+                            <hc:ElementGroup.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                    </Grid>
+                                </ItemsPanelTemplate>
+                            </hc:ElementGroup.ItemsPanel>
+                            <hc:SearchBar x:Name="TimezoneSearchBox" 
+                                          hc:InfoElement.ShowClearButton="True" 
+                                          IsRealTime="True"
+                                          Style="{StaticResource SearchBarPlus}"
+                                          hc:InfoElement.Placeholder="Search..."
+                                          Tag="{Binding ElementName=Timezones}">
+                                <hc:Interaction.Behaviors>
+                                    <b:SearchBarBehavior />
+                                </hc:Interaction.Behaviors>
+                            </hc:SearchBar>
+                            <ToggleButton x:Name="btnTimezoneAscending" Grid.Column="1"
+                                          Tag="{Binding ElementName=Timezones}" 
+                                          Style="{StaticResource DemoInfoSortButtonStyle}">
+                                <hc:Interaction.Behaviors>
+                                    <b:ToggleBehavior />
+                                </hc:Interaction.Behaviors>
+                            </ToggleButton>
+                        </hc:ElementGroup>
+                        <ListBox x:Name="Timezones"
+                                 Width="400"
+                                 Height="200"
+                                 ItemsSource="{Binding TimeZones}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding DisplayName}" />
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                            <hc:Interaction.Behaviors>
+                                <b:ListBoxBehavior />
+                            </hc:Interaction.Behaviors>
+                        </ListBox>
+                    </StackPanel>
+                </Border>
+            </Popup>
+
+            <hc:UniformSpacingPanel Orientation="Horizontal" Spacing="5">
+                <hc:Gravatar Id="{Binding ElementName=Username, Path=Content}" Height="29" Width="29" Background="Transparent" />
+                <Label x:Name="Username"
+                       Padding="0"
+                       BorderThickness="0"
+                       FontWeight="Bold"
+                       Content="{Binding Username, FallbackValue=None, TargetNullValue=None}" />
+            </hc:UniformSpacingPanel>
+        </StackPanel>
+    </Grid>
+</UserControl>

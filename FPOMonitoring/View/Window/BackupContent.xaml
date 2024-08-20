@@ -1,0 +1,152 @@
+﻿<hc:Window x:Class="FPOMonitoring.View.Window.BackupContent"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:local="clr-namespace:FPOMonitoring.View.Window"
+           mc:Ignorable="d"
+           xmlns:hc="https://handyorg.github.io/handycontrol"
+           WindowStartupLocation="CenterOwner"
+           Background="{StaticResource RegionBrush}"
+           DataContext="{Binding Source={StaticResource Locator}, Path=BackupVM}"
+           Height="420"
+           Width="550"
+           ResizeMode="CanMinimize"
+           Title="Backup Data">
+    <StackPanel Margin="10">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <hc:SimplePanel>
+                <GroupBox Background="Transparent"
+                      Padding="0"
+                      BorderThickness="0"
+                      BorderBrush="Transparent">
+                    <GroupBox.Header>
+                        <TextBlock Text="Production to Export" FontWeight="SemiBold"/>
+                    </GroupBox.Header>
+
+                    <Border>
+                        <hc:UniformSpacingPanel Orientation="Vertical"
+                                            Spacing="10">
+                            <hc:WaterfallPanel Groups="2">
+                                <DataGrid Background="Transparent"
+                                      SelectionChanged="Datagrid1_SelectionChanged"
+                                      Height="180"
+                                      x:Name="Datagrid1"
+                                      BorderThickness="1"
+                                      hc:BorderElement.CornerRadius="10"
+                                      hc:DataGridAttach.CanUnselectAllWithBlankArea="True"
+                                      ItemsSource="{Binding Productions, UpdateSourceTrigger=PropertyChanged}"
+                                      HeadersVisibility="All"
+                                      IsReadOnly="True"
+                                      RowHeaderWidth="30"
+                                      RowHeight="30"
+                                      HorizontalScrollBarVisibility="Visible"
+                                      SelectionMode="Extended"
+                                      AutoGenerateColumns="False">
+
+                                    <DataGrid.RowHeaderTemplate>
+                                        <DataTemplate>
+                                            <CheckBox IsChecked="{Binding IsSelected, RelativeSource={RelativeSource AncestorType=DataGridRow}}" />
+                                        </DataTemplate>
+                                    </DataGrid.RowHeaderTemplate>
+
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Binding="{Binding date}">
+                                            <DataGridTextColumn.Header>
+                                                <TextBlock FontWeight="SemiBold"
+                                                       Text="Production" />
+                                            </DataGridTextColumn.Header>
+                                        </DataGridTextColumn>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                                <DataGrid Background="Transparent"
+                                      x:Name="Datagrid2"
+                                      Height="180"
+                                      Margin="10 0 0 0"
+                                      BorderThickness="1"
+                                      hc:BorderElement.CornerRadius="10"
+                                      ItemsSource="{Binding Datas, UpdateSourceTrigger=PropertyChanged}"
+                                      hc:DataGridAttach.CanUnselectAllWithBlankArea="True"
+                                      hc:DataGridAttach.ShowSelectAllButton="False"
+                                      HeadersVisibility="All"
+                                      IsReadOnly="True"
+                                      RowHeight="30"
+                                      HorizontalScrollBarVisibility="Visible"
+                                      SelectionMode="Extended"
+                                      AutoGenerateColumns="False">
+
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Width="Auto" Binding="{Binding prod_id}">
+                                            <DataGridTextColumn.Header>
+                                                <TextBlock FontWeight="SemiBold" Text="Date" />
+                                            </DataGridTextColumn.Header>
+                                        </DataGridTextColumn>
+
+                                        <DataGridTextColumn  Width="Auto" Binding="{Binding Pronumber}">
+                                            <DataGridTextColumn.Header>
+                                                <TextBlock FontWeight="SemiBold" Text="Pronumber" />
+                                            </DataGridTextColumn.Header>
+                                        </DataGridTextColumn>
+
+                                        <DataGridTextColumn  Width="Auto" Binding="{Binding Status}">
+                                            <DataGridTextColumn.Header>
+                                                <TextBlock FontWeight="SemiBold"  Text="Status" />
+                                            </DataGridTextColumn.Header>
+                                        </DataGridTextColumn>
+
+                                    </DataGrid.Columns>
+                                </DataGrid>
+
+                                <CheckBox IsChecked="{Binding IsCleanCheck}" Content="backup and delete" Margin="0 10 0 0"/>
+                            </hc:WaterfallPanel>
+
+                            <DockPanel>
+                                <hc:UniformSpacingPanel Orientation="Horizontal"
+                                                    Spacing="10"
+                                                    DockPanel.Dock="Left">
+                                    <Button Command="{Binding RefreshCommand}">
+                                        <Button.Content>
+                                            <TextBlock>
+                                            <Run Text="&#xf2f9;" FontFamily="{StaticResource FontAwesome}"/>
+                                            <Run Text="Refresh" />
+                                            </TextBlock>
+                                        </Button.Content>
+                                    </Button>
+                                    <TextBlock Margin="0 5 0 0">
+                                    <Run Text="{Binding ElementName=Datagrid1, Path=SelectedItems.Count, Mode=OneWay}" />
+                                    <Run Text="production date selected" />
+                                    </TextBlock>
+                                </hc:UniformSpacingPanel>
+                                <hc:UniformSpacingPanel DockPanel.Dock="Right"
+                                                    Spacing="5"
+                                                    HorizontalAlignment="Right">
+                                    <Button Style="{StaticResource ButtonPrimary}" Command="{Binding StartBackupCommand}">
+                                        <Button.Content>
+                                            <TextBlock>
+                                            <Run Text="{Binding IconText}" FontFamily="{StaticResource FontAwesome}"/>
+                                            <Run Text="Start Backup" />
+                                            </TextBlock>
+                                        </Button.Content>
+                                    </Button>
+                                </hc:UniformSpacingPanel>
+                            </DockPanel>
+                            <ProgressBar Value="{Binding Progress}"
+                                     FontWeight="SemiBold"
+                                     Foreground="{StaticResource PrimaryForeground}" />
+                            <TextBlock FontWeight="SemiBold">
+                            <Run Text="Status :" />
+                            <Run Text="{Binding StatusMessage}" />
+                            </TextBlock>
+                        </hc:UniformSpacingPanel>
+                    </Border>
+                </GroupBox>
+            </hc:SimplePanel>
+
+        </Grid>
+    </StackPanel>
+</hc:Window>

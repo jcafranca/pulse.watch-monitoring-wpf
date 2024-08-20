@@ -1,0 +1,107 @@
+﻿<Window x:Class="FPOMonitoring.View.Window.QueryContent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FPOMonitoring.View.Window"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="Query Information"
+        WindowStartupLocation="CenterOwner" 
+        Height="400" Width="700"
+        FocusManager.FocusedElement="{Binding ElementName=TextBoxOthers}"
+        DataContext="{Binding Source={StaticResource Locator}, Path=QueryVM}">
+    
+    <Grid Background="{StaticResource RegionBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.60*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <hc:SimpleStackPanel Grid.Column="0"
+                         Orientation="Vertical"
+                         Margin="10"
+                         Name="border">
+            <hc:UniformSpacingPanel Spacing="5"
+                                Orientation="Vertical">
+                <CheckBox x:Name="c1"
+                      Content="Mismatch Consignee City/State/Zipcode" />
+                <CheckBox x:Name="c2"
+                      Content="Mismatch Shipping Name for UN#" />
+                <CheckBox x:Name="c3"
+                      Content="PRO#  Already Billed" />
+                <CheckBox x:Name="c4"
+                      Content="PRO # Already Used" />
+                <CheckBox x:Name="c5"
+                      Content="DisRegard" />
+            </hc:UniformSpacingPanel>
+            
+            <hc:TextBox x:Name="TextBoxOthers"
+                    Margin="0 10 0 0"
+                    VerticalContentAlignment="Top"
+                    hc:InfoElement.Title="Others"
+                    Height="100"
+                    TextWrapping="Wrap"
+                    AcceptsReturn="True"
+                    VerticalScrollBarVisibility="Auto"
+                    HorizontalScrollBarVisibility="Auto" />
+            
+            <hc:UniformSpacingPanel Spacing="5"
+                                Margin="0 10"
+                                Orientation="Vertical">
+                <Button Name="SendQuery"
+                    Style="{StaticResource ButtonPrimary}"
+                    FontWeight="SemiBold"
+                    Content="Send Answer = F1"
+                    Click="SendQuery_Click" />
+                <Button Content="Cancel = F2"
+                    FontWeight="SemiBold"
+                    Command="{Binding SaveAsBilledCommand}" />
+                <TextBlock TextWrapping="Wrap"
+                       Width="236"
+                       FontStyle="Italic"
+                       Foreground="{StaticResource SecondaryTextBrush}"
+                       Text="Note : Right-click on the query or answer to copy."/>
+            </hc:UniformSpacingPanel>
+            
+        </hc:SimpleStackPanel>
+        <Border Grid.Column="1"
+            Margin="10"
+            CornerRadius="10" 
+            Background="{StaticResource PrimaryForeground}" Opacity="0.8">
+            <Grid>
+                <TextBlock FontSize="20"
+                       Visibility="{Binding ElementName=ListBoxChat, Path=Items.Count, Converter={StaticResource Integer2VisibilityConverter}}"
+                       Text="No Conversation"
+                       VerticalAlignment="Center"
+                       Foreground="Snow"
+                       HorizontalAlignment="Center" />
+                <ListBox Name="ListBoxChat"
+                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                     ScrollViewer.CanContentScroll="False"
+                     Background="Transparent"
+                     BorderThickness="0"
+                     Style="{StaticResource StackPanelVerticalListBox}"
+                     ItemsSource="{Binding ChatInfos}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel>
+                                <TextBlock FontWeight="SemiBold"
+                                       HorizontalAlignment="{Binding HeaderAlignment}"
+                                       Margin="15 5 15 0"
+                                       Text="{Binding Header}"
+                                       Foreground="White"
+                                       Opacity="0.7" />
+                                <hc:ChatBubble MaxWidth="300"
+                                           Role="{Binding ChatType}"
+                                           Content="{Binding Message}"
+                                           Tag="{Binding}"
+                                           Type="String" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </Border>
+    </Grid>
+</Window>

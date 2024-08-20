@@ -1,0 +1,73 @@
+    <Application x:Class="FPOMonitoring.App" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             xmlns:local="clr-namespace:FPOMonitoring"
+             xmlns:hc="https://handyorg.github.io/handycontrol" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             d1p1:Ignorable="d"
+             xmlns:vm="clr-namespace:FPOMonitoring.ViewModel"
+             xmlns:o="http://schemas.microsoft.com/winfx/2006/xaml/presentation/options"
+             xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:converters="clr-namespace:FPOMonitoring.Tools.Converters">
+    
+  <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <hc:ThemeResources RequestedTheme="{x:Null}" />
+                <hc:Theme />
+                <!-- Other merged dictionaries here -->
+            </ResourceDictionary.MergedDictionaries>
+            <!-- Other app resources here -->
+            <converters:MinValueConverter x:Key="MinValueConverter" />
+            <converters:DateTime2NullConverter x:Key="DateTime2NullConverter" />
+            <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" />
+            <converters:Integer2VisibilityConverter x:Key="Integer2VisibilityConverter" />
+            <converters:ReverseBooleanConverter x:Key="ReverseBooleanConverter" />
+            <converters:IntegerToColorConverter x:Key="IntegerToColorConverter"/>
+            <converters:Integer2VisibilityConverter2 x:Key="Integer2VisibilityConverter2"/>
+            <converters:DateTime2VisibilityConverter x:Key="DateTime2VisibilityConverter"/>
+            <converters:State2VisibilityConverter x:Key="State2VisibilityConverter"/>
+            <converters:State2ToVisibilityConverter x:Key="State2ToVisibilityConverter"/>
+
+            <!--Color-->
+            <SolidColorBrush x:Key="PrimaryForeground">#174189</SolidColorBrush>
+            <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" />
+            <FontFamily x:Key="FontAwesome">./Resources/Fonts/#Font Awesome 6 Free Solid</FontFamily>
+            <FontFamily x:Key="Nunito">./Resources/Fonts/#Nunito</FontFamily>
+
+            <DrawingBrush o:Freeze="True" x:Key="Brush.SortAscending">
+                <DrawingBrush.Drawing>
+                    <DrawingGroup>
+                        <DrawingGroup.Children>
+                            <GeometryDrawing Brush="#00FFFFFF" Geometry="F1M16,16L0,16 0,0 16,0z" />
+                            <GeometryDrawing Brush="#FFF6F6F6" Geometry="F1M0,-0.000199999999999534L0,8.9998 1,8.9998 1,12.0008 2.586,12.0008 1,13.5858 1,15.9998 8,15.9998 8,13.0008 6.449,13.0008 8.23,11.1628 11.533,14.4668 16,9.9838 16,9.4118 14.166,7.5778 13.018,8.7228 13.018,3.0278 10.018,3.0278 10.018,8.7068 9,7.6908 9,-0.000199999999999534z" />
+                            <GeometryDrawing Brush="#FF424242" Geometry="F1M7,7L5,2 4,2 2,7 3,7 3.399,6 5.601,6 6,7z M8,8L1,8 1,1 8,1z M4.5,3.25L5.2,5 3.8,5z M2,11L5,11 2,14 2,15 7,15 7,14 4.013,14 7,11.051 6.952,11 7,11 7,10 2,10z" />
+                            <GeometryDrawing Brush="#FFFFFFFF" Geometry="F1M3.7998,5L4.4998,3.25 5.1998,5z M5.9998,7L6.9998,7 4.9998,2 3.9998,2 1.9998,7 2.9998,7 3.3998,6 5.6008,6z" />
+                            <GeometryDrawing Brush="#FF00539C" Geometry="F1M14.1533,8.9678L14.8603,9.6748 11.5203,13.0278 8.1683,9.6748 8.8753,8.9678 11.0063,11.0898 11.0063,4.0038 12.0063,4.0038 12.0063,11.1078z" />
+                        </DrawingGroup.Children>
+                    </DrawingGroup>
+                </DrawingBrush.Drawing>
+            </DrawingBrush>
+            <Style x:Key="DemoInfoSortButtonStyle" BasedOn="{StaticResource ToggleButtonCustom}" TargetType="ToggleButton" x:Shared="False">
+                <Setter Property="Background" Value="{DynamicResource RegionBrush}" />
+                <Setter Property="BorderBrush" Value="{DynamicResource BorderBrush}" />
+                <Setter Property="Background" Value="{DynamicResource RegionBrush}" />
+                <Setter Property="BorderThickness" Value="1" />
+                <Setter Property="hc:BorderElement.CornerRadius" Value="{StaticResource DefaultCornerRadius}" />
+                <Setter Property="Height" Value="28" />
+                <Setter Property="Width" Value="28" />
+                <Setter Property="Content">
+                    <Setter.Value>
+                        <Rectangle Width="16" Height="16" Fill="{StaticResource Brush.SortAscending}" />
+                    </Setter.Value>
+                </Setter>
+                <Style.Triggers>
+                    <Trigger Property="IsChecked" Value="True">
+                        <Setter Property="BorderBrush" Value="{DynamicResource PrimaryBrush}"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

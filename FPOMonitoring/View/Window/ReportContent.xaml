@@ -1,0 +1,114 @@
+﻿<hc:Window x:Class="FPOMonitoring.View.Window.ReportContent"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:local="clr-namespace:FPOMonitoring.View.Window"
+           xmlns:hc="https://handyorg.github.io/handycontrol"
+           mc:Ignorable="d"
+            WindowStartupLocation="CenterOwner"
+           Title="Report" Height="350" Width="400"
+           ResizeMode="NoResize"
+           DataContext="{Binding Source={StaticResource Locator}, Path=ReportVM}"
+           Background="{StaticResource RegionBrush}"
+           FontFamily="{StaticResource Nunito}"
+           FontWeight="SemiBold">
+    
+    <Grid Margin="0 5 0 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Border>
+            <StackPanel>
+                <hc:UniformSpacingPanel HorizontalAlignment="Center"
+                                        Spacing="10"
+                                        Orientation="Horizontal">
+                    <Button Style="{StaticResource ButtonPrimary}" IsEnabled="{Binding IsEnabled}" Command="{Binding Generate}">
+                        <Button.Content>
+                            <TextBlock>
+                                <Run FontSize="14" Text="&#xf6dd;" FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Generate" />
+                            </TextBlock>
+                        </Button.Content>
+                    </Button>
+
+                    <Button Command="{Binding BrowseReport}">
+                        <Button.Content>
+                            <TextBlock>
+                                <Run FontSize="16" Text="&#xf07c;" FontFamily="{StaticResource FontAwesome}" />
+                                <Run Text=" Browse Report" />
+                            </TextBlock>
+                        </Button.Content>
+                    </Button>
+
+                    <ComboBox Width="150"
+                              Style="{StaticResource ComboBoxExtend}"
+                              hc:InfoElement.Title="Date"
+                              hc:InfoElement.TitlePlacement="Left"
+                              ItemsSource="{Binding ProductionDates}"
+                              DisplayMemberPath="date"
+                              MaxDropDownHeight="300"
+                              SelectedItem="{Binding SelectedDate}"/>
+                    
+                </hc:UniformSpacingPanel>
+
+                <Grid Margin="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <hc:TextBox hc:InfoElement.ShowClearButton="True" hc:InfoElement.Placeholder="Select a path" Text="{Binding ReportPath}"/>
+                    <Button Command="{Binding BrowseDir}" Grid.Column="1" Margin="5 0 0 0" Content="&#xf141;" FontFamily="{StaticResource FontAwesome}"/>
+                </Grid>
+                
+            </StackPanel>
+        </Border>
+        
+        <Border Grid.Row="1" Margin="5 0">
+            <hc:UniformSpacingPanel Orientation="Vertical" Spacing="10">
+                <GroupBox Header="Details" Background="Transparent">
+                    <Border>
+                        <StackPanel>
+                            <hc:ElementGroup Margin="5 5 0 0">
+                                <hc:WaterfallPanel>
+                                    <hc:UniformSpacingPanel Orientation="Vertical" Spacing="5">
+                                        <CheckBox IsHitTestVisible="False" Content="Biller Production Report" FontWeight="SemiBold" IsChecked="True"/>
+                                        <CheckBox IsHitTestVisible="False" Content="Hourly Production Report" FontWeight="SemiBold" IsChecked="True"/>
+                                        <CheckBox IsHitTestVisible="False" Content="Summary Report" FontWeight="SemiBold" IsChecked="True"/>
+                                    </hc:UniformSpacingPanel>
+                                    <hc:UniformSpacingPanel Orientation="Vertical" Spacing="5" >
+                                        <CheckBox IsHitTestVisible="False" Content="Idle Reports" FontWeight="SemiBold" IsChecked="True"/>
+                                        <CheckBox IsHitTestVisible="False" Content="Idle Hourly Report" FontWeight="SemiBold" IsChecked="True"/>
+                                        <CheckBox IsHitTestVisible="False" Content="Idle Summary Report" FontWeight="SemiBold" IsChecked="True"/>
+                                    </hc:UniformSpacingPanel>
+                                </hc:WaterfallPanel>
+                            </hc:ElementGroup>
+                            <Grid Margin="5 10 5 5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition />
+                                </Grid.RowDefinitions>
+                                
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </GroupBox>
+                <ProgressBar Foreground="{StaticResource PrimaryForeground}" Value="{Binding Progress}" FontWeight="SemiBold"/>
+                <TextBlock TextWrapping="WrapWithOverflow">
+                    <Run Text="Status :"
+                         FontWeight="Bold" />
+                    <Run Text="{Binding StatusMessage}"
+                         FontWeight="SemiBold" />
+                </TextBlock>
+            </hc:UniformSpacingPanel>
+        </Border>
+    </Grid>
+</hc:Window>

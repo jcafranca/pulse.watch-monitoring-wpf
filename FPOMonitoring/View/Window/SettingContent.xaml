@@ -1,0 +1,131 @@
+﻿<hc:Window x:Class="FPOMonitoring.View.Window.SettingContent"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+           xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+           xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+           xmlns:local="clr-namespace:FPOMonitoring.View.Window"
+           xmlns:hc="https://handyorg.github.io/handycontrol"
+           mc:Ignorable="d"
+           Title="Setting Informations" Height="415" Width="500"
+           Background="{StaticResource RegionBrush}"
+           DataContext="{Binding Source={StaticResource Locator}, Path=SettingVM}"
+           FocusManager.FocusedElement="{Binding ElementName=HostnameTB}"
+           FontFamily="{StaticResource Nunito}"
+           FontWeight="SemiBold"
+           ResizeMode="NoResize"
+           WindowStartupLocation="CenterOwner">
+
+    <hc:Window.Resources>
+        <Style x:Key="TagCustomStyle"
+               BasedOn="{StaticResource TagBaseStyle}"
+               TargetType="hc:Tag">
+            <Setter Property="Margin"
+                    Value="3" />
+        </Style>
+    </hc:Window.Resources>
+
+    <Grid Margin="10 0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel IsEnabled="{Binding Loading, Converter={StaticResource ReverseBooleanConverter}}">
+            <StackPanel Margin="0 0 0 2">
+                <hc:TagContainer ItemContainerStyle="{StaticResource TagCustomStyle}"
+                                 Background="{DynamicResource RegionBrush}"
+                                 Margin="0 15 0 5"
+                                 Height="85"
+                                 Padding="5"
+                                 ItemsSource="{Binding Hostnames}" />
+                <DockPanel LastChildFill="True">
+                    <Button Command="{Binding AddItemCommand}"
+                            Background="{DynamicResource PrimaryBrush}"
+                            BorderBrush="{DynamicResource PrimaryBrush}"
+                            Foreground="White"
+                            FontWeight="SemiBold"
+                            Margin="5 0 0 0"
+                            DockPanel.Dock="Right"
+                            Content="Add" />
+                    <hc:TextBox x:Name="HostnameTB"
+                                hc:InfoElement.Placeholder="Hostname"
+                                hc:InfoElement.ShowClearButton="True"
+                                Keyboard.KeyDown="ServerText_KeyDown"
+                                Text="{Binding TagName}" />
+                </DockPanel>
+            </StackPanel>
+            <hc:TextBox hc:InfoElement.ShowClearButton="True"
+                        hc:InfoElement.Placeholder=""
+                        hc:InfoElement.TitlePlacement="Top"
+                        hc:InfoElement.Title="Port"
+                        hc:InfoElement.Necessary="True"
+                        Text="{Binding Port}" />
+            <hc:TextBox hc:InfoElement.ShowClearButton="True"
+                        hc:InfoElement.Placeholder=""
+                        hc:InfoElement.TitlePlacement="Top"
+                        hc:InfoElement.Title="Database Name"
+                        hc:InfoElement.Necessary="True"
+                        Text="{Binding DatabaseName}" />
+            <hc:TextBox hc:InfoElement.ShowClearButton="True"
+                        hc:InfoElement.Placeholder=""
+                        hc:InfoElement.TitlePlacement="Top"
+                        hc:InfoElement.Title="Username"
+                        hc:InfoElement.Necessary="True"
+                        Text="{Binding Username}" />
+            <hc:PasswordBox hc:InfoElement.Title="Password"
+                            hc:InfoElement.ShowClearButton="True"
+                            hc:InfoElement.Placeholder=""
+                            hc:InfoElement.Necessary="True"
+                            ShowEyeButton="True"
+                            Name="TextBoxPassword"
+                            KeyDown="TextBoxPassword_KeyDown"
+                            Loaded="PasswordBox_Loaded"
+                            LostFocus="TextBoxPassword_LostFocus" />
+            <ToggleButton IsEnabled="{Binding Loading, Mode=TwoWay,FallbackValue=true, TargetNullValue=true, Converter={StaticResource ReverseBooleanConverter}}"
+                          IsChecked="{Binding Loading, Mode=TwoWay,FallbackValue=false, TargetNullValue=false}"
+                          Style="{StaticResource ToggleButtonLoadingPrimary}"
+                          Height="30"
+                          FontWeight="SemiBold"
+                          BorderThickness="0"
+                          Name="ButtonLogin"
+                          Command="{Binding TestCommand}"
+                          Margin="0 10 0 0" HorizontalAlignment="Right" Content="Test Connection"/>
+        </StackPanel>
+        <GridSplitter Background="{StaticResource PrimaryForeground}" Margin="10 0" Grid.Column="1" Width="3" ResizeBehavior="PreviousAndNext" ResizeDirection="Columns"  />
+        <StackPanel Grid.Column="2">
+            <hc:TextBox hc:InfoElement.ShowClearButton="True"
+                        hc:InfoElement.Placeholder=""
+                        hc:InfoElement.TitlePlacement="Top"
+                        hc:InfoElement.Title="Start"
+                        hc:InfoElement.Necessary="True"
+                        Text="{Binding Start}" />
+            <hc:TextBox hc:InfoElement.ShowClearButton="True"
+                        hc:InfoElement.Placeholder=""
+                        hc:InfoElement.TitlePlacement="Top"
+                        hc:InfoElement.Title="End"
+                        hc:InfoElement.Necessary="True"
+                        Text="{Binding End}" />
+
+            <TextBlock Margin="0 5 0 0 " FontWeight="SemiBold" x:Name="Note" Foreground="{StaticResource PrimaryForeground}" TextAlignment="Left">
+                Note: Double check the start and end must be in <LineBreak /> 24Hr Format (HH:mm).
+             </TextBlock>
+
+            <hc:SimpleStackPanel Orientation="Horizontal" Margin="0 10 0 0" HorizontalAlignment="Right">
+                <hc:UniformSpacingPanel Spacing="5">
+                    <Button Content="Cancel" Style="{StaticResource ButtonDanger}" Click="Button_Click"/>
+                    <ToggleButton IsEnabled="{Binding Loading2, Mode=TwoWay,FallbackValue=true, TargetNullValue=true, Converter={StaticResource ReverseBooleanConverter}}"
+                                  IsChecked="{Binding Loading2, Mode=TwoWay,FallbackValue=false, TargetNullValue=false}"
+                                  Style="{StaticResource ToggleButtonLoadingPrimary}"
+                                  Height="30"
+                                  FontWeight="SemiBold"
+                                  BorderThickness="0"
+                                  Name="ButtonSave"
+                                  HorizontalAlignment="Right"
+                                  Command="{Binding SaveCommand}"
+                                  Content="Save"/>
+                </hc:UniformSpacingPanel>
+            </hc:SimpleStackPanel>
+            
+        </StackPanel>
+    </Grid>
+</hc:Window>
